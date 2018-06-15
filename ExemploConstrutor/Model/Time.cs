@@ -8,6 +8,9 @@ namespace Model
 {
     public class Time
     {
+        private string p1;
+        private string p2;
+
         public string Nome { get; set; }
         public string Pais { get; set; }
         public int QuantidadeGols { get; set; }
@@ -26,6 +29,13 @@ namespace Model
             Nome = nome;
             Pais = pais;
             Serie = serie;
+        }
+
+        public Time(string p1, string p2)
+        {
+
+            this.p1 = p1;
+            this.p2 = p2;
         }
 
 

@@ -28,5 +28,10 @@ namespace WFA
                     Faturamento = Convert.ToDecimal(txtFaturamento.Text)
                 };
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Time time = new Time(txtNomedois.Text, txtPais2.Text);
+        }
     }
 }
