@@ -1,0 +1,11 @@
+Fada
+
+nome - 1° e 2°
+familia - 1°
+cor - 1° e 2°
+corAsa
+tamanhoAsa
+asaQuebrada
+é Mulher? - 2°
+fazBarulho?
+elemento
